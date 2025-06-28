@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const images = [
   {
-    src: 'images/stackimg/1.jpg',
+    src: '/images/stackimg/1.jpg',  // ✅ now has leading slash
     top: 'top-0 right-0 rotate-6',
     zIndex: 10,
   },
@@ -18,6 +18,7 @@ const images = [
     zIndex: 30,
   },
 ];
+
 
 
 const ImageStack = () => {
