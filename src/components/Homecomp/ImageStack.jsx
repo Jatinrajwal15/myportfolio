@@ -3,21 +3,22 @@ import Image from 'next/image';
 
 const images = [
   {
-    src: '/images/stackimg/1.jpg',
+    src: '/portfolio-site/images/stackimg/1.jpg',
     top: 'top-0 right-0 rotate-6',
     zIndex: 10,
   },
   {
-    src: '/images/stackimg/2.jpg',
+    src: '/portfolio-site/images/stackimg/2.jpg',
     top: 'top-10 right-10 rotate-3',
     zIndex: 20,
   },
   {
-    src: '/images/stackimg/3.jpg',
+    src: '/portfolio-site/images/stackimg/3.jpg',
     top: 'top-20 right-20',
     zIndex: 30,
   },
 ];
+
 
 const ImageStack = () => {
   return (

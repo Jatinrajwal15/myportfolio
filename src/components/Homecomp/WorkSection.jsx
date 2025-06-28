@@ -1,3 +1,5 @@
+"use client";
+
 import { motion } from "framer-motion";
 import PropTypes from "prop-types";
 import { FaReact, FaJs, FaCss3Alt } from "react-icons/fa";
@@ -9,26 +11,29 @@ import { MdShoppingCart } from "react-icons/md";
 
 const WorkSection = () => {
   const projects = [
-    { 
-      title: "LOOPVERSE", 
-      description: "Loopverse is a dynamic social media platform designed to connect users through photo and video sharing. Inspired by Instagram, it features intuitive UI, real-time interactions, and a vibrant community experience.", 
-      image: "/images/projectsimg/1.png",  
+    {
+      title: "LOOPVERSE",
+      description:
+        "Loopverse is a dynamic social media platform designed to connect users through photo and video sharing. Inspired by Instagram, it features intuitive UI, real-time interactions, and a vibrant community experience.",
+      image: "/portfolio-site/images/projectsimg/1.png", // ✅ Updated
       skills: ["React.js", "Vite", "Tailwind"],
-      link: "#"
+      link: "#",
     },
-    { 
-      title: "Dreamation Resort", 
-      description: "A sleek website showcasing a luxury resort with beautiful visuals and easy booking.", 
-      image: "/images/projectsimg/2.png", 
+    {
+      title: "Dreamation Resort",
+      description:
+        "A sleek website showcasing a luxury resort with beautiful visuals and easy booking.",
+      image: "/portfolio-site/images/projectsimg/2.png", // ✅ Updated
       skills: ["Next.JS", "Tailwind", "Vercel", "React.js"],
-      link: "https://dreamationresorts.com/"
+      link: "https://dreamationresorts.com/",
     },
-    { 
-      title: "Himalayan Khandu", 
-      description: "A travel website focused on Himalayan adventures, featuring scenic visuals and easy trip planning.", 
-      image: "/images/projectsimg/3.png",  
+    {
+      title: "Himalayan Khandu",
+      description:
+        "A travel website focused on Himalayan adventures, featuring scenic visuals and easy trip planning.",
+      image: "/portfolio-site/images/projectsimg/3.png", // ✅ Updated
       skills: ["Next.JS", "Tailwind", "Vercel", "React.js"],
-      link: "https://himalyankhadu.com/"
+      link: "https://himalyankhadu.com/",
     },
   ];
 
