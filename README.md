@@ -1,8 +1,8 @@
-# 💼 Jatin Rajwal's Portfolio
+# 💼  Portfolio
 
 Welcome to my personal portfolio website — a showcase of my skills, projects, and passion for design, development, and creativity.
 
-🌐 **Live Demo**: [View Website](https://jatinrajwal15.github.io/portfolio-site)
+🌐 **Live Demo**: [View Website](https://jatinrajwal15.github.io/myportfolio/)
 
 ---
 
