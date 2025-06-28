@@ -15,7 +15,7 @@ const WorkSection = () => {
       title: "LOOPVERSE",
       description:
         "Loopverse is a dynamic social media platform designed to connect users through photo and video sharing. Inspired by Instagram, it features intuitive UI, real-time interactions, and a vibrant community experience.",
-      image: "/portfolio-site/images/projectsimg/1.png", // ✅ Updated
+      image: "/images/projectsimg/1.png",
       skills: ["React.js", "Vite", "Tailwind"],
       link: "#",
     },
@@ -23,7 +23,7 @@ const WorkSection = () => {
       title: "Dreamation Resort",
       description:
         "A sleek website showcasing a luxury resort with beautiful visuals and easy booking.",
-      image: "/portfolio-site/images/projectsimg/2.png", // ✅ Updated
+      image: "/images/projectsimg/2.png",
       skills: ["Next.JS", "Tailwind", "Vercel", "React.js"],
       link: "https://dreamationresorts.com/",
     },
@@ -31,7 +31,7 @@ const WorkSection = () => {
       title: "Himalayan Khandu",
       description:
         "A travel website focused on Himalayan adventures, featuring scenic visuals and easy trip planning.",
-      image: "/portfolio-site/images/projectsimg/3.png", // ✅ Updated
+      image: "/images/projectsimg/3.png", 
       skills: ["Next.JS", "Tailwind", "Vercel", "React.js"],
       link: "https://himalyankhadu.com/",
     },
