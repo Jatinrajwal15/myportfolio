@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const images = [
   {
-    src: '/images/stackimg/1.jpg',  // ✅ now has leading slash
+    src: '/images/stackimg/1.jpg', 
     top: 'top-0 right-0 rotate-6',
     zIndex: 10,
   },
